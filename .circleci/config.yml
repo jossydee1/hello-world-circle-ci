@@ -18,6 +18,7 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
 
+  # my added jobs
   print_hello:
     docker:
       - image: circleci/node:13.8.0
